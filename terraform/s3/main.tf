@@ -21,7 +21,7 @@ data "aws_iam_policy_document" "s3_policy" {
 
 resource "aws_s3_bucket" "origin" {
   bucket = var.site_name
-  acl = "public-read"
+  acl = "private"
   website {
     index_document = "index.html"
     error_document = "index.html"
