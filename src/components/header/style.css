@@ -1,0 +1,17 @@
+.header {
+  height: 10%;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.header-logo {
+  max-width:10%;
+  height: auto;
+  width: auto;
+}
+
+.header-logo-small-display {
+  max-width:40%;
+  height: auto;
+  width: auto;
+}

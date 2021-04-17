@@ -1,0 +1,13 @@
+.search-bar {
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 10px;
+}
+
+.MuiInputBase-input {
+  color: #ffffff !important;
+}
+
+.MuiSvgIcon-root {
+  fill: #79828a !important;
+}
