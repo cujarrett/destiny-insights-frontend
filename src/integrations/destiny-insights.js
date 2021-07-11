@@ -66,7 +66,20 @@ const getCardData = (data) => {
     }
   }
 
-  return Object.values(modData)
+  // Temp, adds missing Radiant Light until it's sold Ada-1 in game
+  const result = Object.values(modData)
+  if (!modData["Radiant Light"]) {
+    result.push({
+      name: "Radiant Light",
+      type: "Charged with Light Mod",
+      description: "Casting your Super causes nearby allies to become Charged with Light.",
+      icon: "https://bungie.net/common/destiny2_content/icons/b6649b05c177d25a0faae24fe727fbb9.png",
+      timesSold: 0,
+      lastSold: "N/A"
+    })
+  }
+
+  return Object.values(result)
 }
 
 const getChargedWithLightModTimelineData = (data) => {
