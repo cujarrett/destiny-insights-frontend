@@ -12,5 +12,5 @@ variable "acm_certificate_arn" {
 variable "site_name" {
   description = "Site name"
   type = string
-  default = "banshee44mods.com"
+  default = "destinyinsights.com"
 }
