@@ -1,4 +1,4 @@
-![logo](./media/logo.png)
+![logo](./media/logo.jpg)
 
 <p align="center">
   <a href="https://circleci.com/gh/cujarrett/destiny-insights-frontend/tree/main"><img alt="Circle CI" src="https://circleci.com/gh/cujarrett/destiny-insights-frontend/tree/main.svg?style=svg"></a>
@@ -13,6 +13,7 @@
 
 A simple way, on any device, to quickly see info about Destiny.
 
+![demo](./media/demo.gif)
 
 ## Want to Contribute?
 
