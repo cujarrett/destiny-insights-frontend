@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.4.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.3.0...v0.4.0) (2021-07-11)
+
+
+### Features
+
+* adds ensured Radiant Light info ([#8](https://github.com/cujarrett/destiny-insights-frontend/issues/8)) ([bf59f66](https://github.com/cujarrett/destiny-insights-frontend/commit/bf59f66a09600a8c5d0af0f3345c7c380f1bc436))
+
 # [0.3.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.2.0...v0.3.0) (2021-07-11)
 
 
