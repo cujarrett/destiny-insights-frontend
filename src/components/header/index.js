@@ -10,7 +10,7 @@ export const Header = () => {
 
   return (
     <div data-testid="header" className="header">
-      <a href="https://banshee44mods.com"><img src={logo} className={logoStyling} alt="logo" /></a>
+      <a href="https://destinyinsights.com"><img src={logo} className={logoStyling} alt="logo" /></a>
     </div>
   )
 }

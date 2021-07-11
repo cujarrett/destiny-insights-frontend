@@ -1,32 +1,27 @@
 import React from "react"
-import PropTypes from "prop-types"
 import "./style.css"
+import support from "./support.jpg"
+import twitter from "./twitter.jpg"
 
-export const Info = ({ armorMods, weaponMods }) => {
+export const Info = () => {
   return (
-    <div className="container">
-      <div className="context">
-        Mod Data For Last Year
-      </div>
-      <div className="content">
-        <div className="left">
-          <div className="mod-count">{ weaponMods }</div>
-          <div className="mod-type-description">
-            Weapon mods sold
+    <div id="info" className="col-xs-12">
+      <div className="left">
+        <div className="title">
+          Twitter Bot
+          <div className="header">
+            <a href="https://twitter.com/destinyinsights"><img src={twitter} className={"image"} alt="logo" /></a>
           </div>
         </div>
-        <div className="right">
-          <div className="mod-count">{ armorMods }</div>
-          <div className="mod-type-description">
-            Armor mods sold
+      </div>
+      <div className="right">
+        <div className="title">
+          Support
+          <div className="header">
+            <a href="https://www.buymeacoffee.com/cujarrett"><img src={support} className={"image"} alt="logo" /></a>
           </div>
         </div>
       </div>
     </div>
   )
-}
-
-Info.propTypes = {
-  armorMods: PropTypes.number,
-  weaponMods: PropTypes.number
 }

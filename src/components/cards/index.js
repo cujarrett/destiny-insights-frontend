@@ -13,7 +13,7 @@ export const Cards = ({ cardData, searchTerms }) => {
     }
   }
 
-  const cardDataToShow = []
+  let cardDataToShow = []
   const emptySearch = searchTerms === ""
   for (const mod of cardData) {
     const nameMatch = mod.name.toLowerCase().includes(searchTerms.toLowerCase())
@@ -22,12 +22,18 @@ export const Cards = ({ cardData, searchTerms }) => {
       cardDataToShow.push(mod)
     }
   }
+  if (emptySearch) {
+    cardDataToShow = cardDataToShow.splice(0, 9)
+  }
 
   return (
     <div className="container">
+      <div className="title">
+        Mod info for last year
+      </div>
       <Grid
         container
-        spacing={10}
+        spacing={5}
         style={{ padding: "24px" }}
       >
         {cardDataToShow.map((card) =>
