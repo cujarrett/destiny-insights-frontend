@@ -1,10 +1,10 @@
 variable "site_name" {
-  type = string
+  type        = string
   description = "Site name"
 }
 
 variable "oai_iam_arn" {
-  type = string
+  type        = string
   description = "Site name"
 }
 
@@ -21,7 +21,7 @@ data "aws_iam_policy_document" "s3_policy" {
 
 resource "aws_s3_bucket" "origin" {
   bucket = var.site_name
-  acl = "private"
+  acl    = "private"
   website {
     index_document = "index.html"
     error_document = "index.html"
@@ -38,6 +38,6 @@ resource "aws_s3_bucket_policy" "repo" {
 }
 
 output "s3_origin_bucket" {
-  value = aws_s3_bucket.origin
+  value     = aws_s3_bucket.origin
   sensitive = true
 }

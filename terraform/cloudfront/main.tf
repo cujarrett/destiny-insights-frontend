@@ -1,11 +1,11 @@
 variable "aws_region" {
-  type = string
+  type        = string
   description = "AWS Region the infrastructure will be created in"
 }
 
 variable "acm_certificate_arn" {
   description = "ACM Certificate for the domain"
-  type = string
+  type        = string
 }
 
 variable "oai_cloudfront_access_identity_path" {
@@ -17,7 +17,7 @@ variable "s3_origin_bucket" {
 }
 
 variable "site_name" {
-  type = string
+  type        = string
   description = "Site name"
 }
 
@@ -30,12 +30,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     }
   }
 
-  enabled = true
-  price_class = "PriceClass_100"
-  is_ipv6_enabled = true
+  enabled             = true
+  price_class         = "PriceClass_100"
+  is_ipv6_enabled     = true
   default_root_object = "index.html"
 
-  aliases = [ var.site_name, "www.${var.site_name}" ]
+  aliases = [var.site_name, "www.${var.site_name}"]
 
   default_cache_behavior {
     allowed_methods  = ["DELETE", "GET", "HEAD", "OPTIONS", "PATCH", "POST", "PUT"]
@@ -67,26 +67,26 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   custom_error_response {
-    error_code    = 403
-    response_code = 200
+    error_code         = 403
+    response_code      = 200
     response_page_path = "/index.html"
   }
 
   custom_error_response {
-    error_code    = 404
-    response_code = 200
+    error_code         = 404
+    response_code      = 200
     response_page_path = "/index.html"
   }
 
   viewer_certificate {
-    acm_certificate_arn = var.acm_certificate_arn
-    minimum_protocol_version = "TLSv1.2_2019"
+    acm_certificate_arn            = var.acm_certificate_arn
+    minimum_protocol_version       = "TLSv1.2_2019"
     cloudfront_default_certificate = false
-    ssl_support_method = "sni-only"
+    ssl_support_method             = "sni-only"
   }
 }
 
 output "cloudfront_info" {
-  value = aws_cloudfront_distribution.s3_distribution
+  value     = aws_cloudfront_distribution.s3_distribution
   sensitive = true
 }

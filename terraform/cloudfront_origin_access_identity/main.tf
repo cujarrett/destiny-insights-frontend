@@ -1,5 +1,5 @@
 variable "site_name" {
-  type = string
+  type        = string
   description = "Site name"
 }
 
