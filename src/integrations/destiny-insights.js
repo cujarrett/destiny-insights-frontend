@@ -91,7 +91,7 @@ const getChargedWithLightModTimelineData = (data) => {
     }
     if (type === "Charged with Light Mod") {
       if (modsTypesByName[mod.name] === undefined) {
-        modsTypesByName[mod.name] = { timesSold: 1 }
+        modsTypesByName[mod.name] = { timesSold: 0 }
       }
       modsTypesByName[mod.name].timesSold += 1
     }
@@ -113,7 +113,7 @@ const getWarmindCellModTimelineData = (data) => {
     }
     if (type === "Warmind Cell Mod") {
       if (modsTypesByName[mod.name] === undefined) {
-        modsTypesByName[mod.name] = { timesSold: 1 }
+        modsTypesByName[mod.name] = { timesSold: 0 }
       }
       modsTypesByName[mod.name].timesSold += 1
     }
