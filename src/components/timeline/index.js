@@ -20,7 +20,14 @@ export const Timeline = (props) => {
         <YAxis />
         <CartesianGrid strokeDasharray="0" stroke="#33363f"/>
         <Tooltip contentStyle={{ backgroundColor: "#171f29", color: "#9799a0" }} />
-        <Bar type="monotone" dataKey="timesSold" stackId="1" stroke="#ff8f00" fill="#ff8f00" />
+        <Bar
+          type="monotone"
+          dataKey="timesSold"
+          name="Times Sold"
+          label="Times Sold"
+          stackId="1"
+          stroke="#ff8f00"
+          fill="#ff8f00" />
       </BarChart>
 
       <div className="title">
@@ -37,7 +44,13 @@ export const Timeline = (props) => {
         <YAxis />
         <CartesianGrid strokeDasharray="0" stroke="#33363f"/>
         <Tooltip contentStyle={{ backgroundColor: "#171f29", color: "#9799a0" }} />
-        <Bar type="monotone" dataKey="timesSold" stackId="1" stroke="#d84315" fill="#d84315" />
+        <Bar
+          type="monotone"
+          dataKey="timesSold"
+          name="Times Sold"
+          stackId="1"
+          stroke="#d84315"
+          fill="#d84315" />
       </BarChart>
     </div>
   )
