@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.6.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.5.0...v0.6.0) (2021-07-13)
+
+
+### Bug Fixes
+
+* fixes timeline counts ([1c1aade](https://github.com/cujarrett/destiny-insights-frontend/commit/1c1aadedf654a17505a77427f36f95fd7243f98d))
+
+
+### Features
+
+* improves timeline times sold label ([237adcd](https://github.com/cujarrett/destiny-insights-frontend/commit/237adcd7a624cb9fcc2ec8eb0cc2c4a65b0cd803))
+
 # [0.5.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.4.0...v0.5.0) (2021-07-12)
 
 
