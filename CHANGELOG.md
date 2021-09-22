@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.10](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.7.9...v0.7.10) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/git from 9.0.1 to 10.0.0 ([#22](https://github.com/cujarrett/destiny-insights-frontend/issues/22)) ([fcad3f3](https://github.com/cujarrett/destiny-insights-frontend/commit/fcad3f362a83c7299228a60a8d87ec711f95e6f0))
+
 ## [0.7.9](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.7.8...v0.7.9) (2021-09-22)
 
 
