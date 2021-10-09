@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.9.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.8.0...v0.9.0) (2021-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump web-vitals from 2.1.0 to 2.1.1 ([#37](https://github.com/cujarrett/destiny-insights-frontend/issues/37)) ([3c8eaa3](https://github.com/cujarrett/destiny-insights-frontend/commit/3c8eaa37c262ff79e56a360ddbe78edc0ef173dc))
+
+
+### Features
+
+* adds default terraform tags ([#38](https://github.com/cujarrett/destiny-insights-frontend/issues/38)) ([4f6c245](https://github.com/cujarrett/destiny-insights-frontend/commit/4f6c24504cb6ffb27d8275625300c062d2c3aa9e))
+
 # [0.8.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.7.13...v0.8.0) (2021-10-05)
 
 
