@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.2](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.9.1...v0.9.2) (2021-10-14)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 13.2.0 to 13.2.1 ([#40](https://github.com/cujarrett/destiny-insights-frontend/issues/40)) ([efc75b3](https://github.com/cujarrett/destiny-insights-frontend/commit/efc75b37bee13c0fb33bae82329dd3c694edcbc0))
+
 ## [0.9.1](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.9.0...v0.9.1) (2021-10-12)
 
 
