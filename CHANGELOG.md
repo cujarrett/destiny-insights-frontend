@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.9.5](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.9.4...v0.9.5) (2021-10-16)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @testing-library/user-event from 13.3.0 to 13.4.1 ([#45](https://github.com/cujarrett/destiny-insights-frontend/issues/45)) ([ecf0425](https://github.com/cujarrett/destiny-insights-frontend/commit/ecf0425480a3176de1af9679db686421e1e892b3))
+
 ## [0.9.4](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.9.3...v0.9.4) (2021-10-16)
 
 
