@@ -1,5 +1,8 @@
 {
   "name": "destiny-insights-frontend",
+  "author": "Matt Jarrett",
+  "license": "MIT",
+  "description": "React SPA for banshee44mods.com",
   "version": "0.9.11",
   "private": true,
   "contributors": [
