@@ -6,7 +6,7 @@
 .header-logo {
   margin-top: 5%;
   max-width:50%;
-  max-height:10%;
+  max-height:100px;
   height: auto;
   width: auto;
 }
@@ -14,7 +14,7 @@
 .header-logo-small-display {
   margin-top: 5%;
   max-width:96%;
-  max-height:10%;
+  max-height:50px;
   height: auto;
   width: auto;
 }
