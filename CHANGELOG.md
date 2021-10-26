@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.1](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.10.0...v0.10.1) (2021-10-26)
+
+
+### Bug Fixes
+
+* **deps:** bump recharts from 2.1.5 to 2.1.6 ([#54](https://github.com/cujarrett/destiny-insights-frontend/issues/54)) ([f56e30f](https://github.com/cujarrett/destiny-insights-frontend/commit/f56e30f74d92ff5802c15a09d4fb5a672b3f7705))
+
 # [0.10.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.9.11...v0.10.0) (2021-10-24)
 
 
