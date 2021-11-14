@@ -1,4 +1,4 @@
-![logo](./media/logo.jpg)
+![logo](./media/destiny-insights.png)
 
 <p align="center">
   <a href="https://github.com/cujarrett/destiny-insights-frontend/actions"><img alt="CI/CD" src="https://github.com/cujarrett/destiny-insights-frontend/actions/workflows/release.yml/badge.svg"></a>
@@ -11,7 +11,7 @@
 
 ## What is it?
 
-A simple way, on any device, to quickly see info about Destiny.
+A rad web app to quickly see info about Destiny on any device.
 
 ![demo](./media/demo.gif)
 
