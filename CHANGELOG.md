@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.11.1](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.11.0...v0.11.1) (2021-11-25)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/commit-analyzer ([#66](https://github.com/cujarrett/destiny-insights-frontend/issues/66)) ([dd26c94](https://github.com/cujarrett/destiny-insights-frontend/commit/dd26c94142f3050875a992f1dd74f06e2a0d30df))
+* **deps-dev:** bump @semantic-release/release-notes-generator ([#67](https://github.com/cujarrett/destiny-insights-frontend/issues/67)) ([987964b](https://github.com/cujarrett/destiny-insights-frontend/commit/987964b77bc3f847fe087a6e80a4b3a87e639851))
+* **deps-dev:** bump @testing-library/jest-dom from 5.15.0 to 5.15.1 ([#65](https://github.com/cujarrett/destiny-insights-frontend/issues/65)) ([f7ea242](https://github.com/cujarrett/destiny-insights-frontend/commit/f7ea242e54c98d45682f2c387c7f224f2ea38c23))
+
 # [0.11.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.10.11...v0.11.0) (2021-11-25)
 
 
