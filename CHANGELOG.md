@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.13.7](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.13.6...v0.13.7) (2021-12-31)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @babel/preset-react from 7.16.5 to 7.16.7 ([#77](https://github.com/cujarrett/destiny-insights-frontend/issues/77)) ([39ab445](https://github.com/cujarrett/destiny-insights-frontend/commit/39ab445ee8224fdb33c1cc5615f1e2bb8a89f2b4))
+
 ## [0.13.6](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.13.5...v0.13.6) (2021-12-29)
 
 
