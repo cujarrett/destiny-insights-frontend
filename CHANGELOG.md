@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.15.1](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.15.0...v0.15.1) (2022-01-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @babel/core from 7.16.10 to 7.16.12 ([#90](https://github.com/cujarrett/destiny-insights-frontend/issues/90)) ([0b9385c](https://github.com/cujarrett/destiny-insights-frontend/commit/0b9385c05967cb663285266f1810a134dea5ed8d))
+
 # [0.15.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.14.3...v0.15.0) (2022-01-22)
 
 
