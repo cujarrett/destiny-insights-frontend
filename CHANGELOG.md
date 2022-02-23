@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.16.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.15.2...v0.16.0) (2022-02-23)
+
+
+### Features
+
+* adds support for witch queen ([#92](https://github.com/cujarrett/destiny-insights-frontend/issues/92)) ([fb6fcba](https://github.com/cujarrett/destiny-insights-frontend/commit/fb6fcbafe38ac028248807c403aee52b29dffb73))
+
 ## [0.15.2](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.15.1...v0.15.2) (2022-02-02)
 
 
