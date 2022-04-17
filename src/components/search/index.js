@@ -6,7 +6,7 @@ import "./style.css"
 export const Search = ({ setSearchTerms }) => {
   const enableAutoFocus = document.documentElement.clientWidth > 400
   return (
-    <div className="container">
+    <div className="container-search">
       <div className="search-bar">
         <SearchBar
           autoFocus={enableAutoFocus}

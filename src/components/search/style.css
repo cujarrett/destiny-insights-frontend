@@ -1,7 +1,7 @@
 .search-bar {
+  margin: auto;
   margin-top: 5%;
-  margin-left: 22px;
-  margin-right: 22px;
+  width: 35em;
   margin-bottom: 10px;
 }
 
