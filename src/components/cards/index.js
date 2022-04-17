@@ -27,7 +27,7 @@ export const Cards = ({ cardData, searchTerms }) => {
   }
 
   return (
-    <div className="container">
+    <div className="container-cards">
       <div className="title">
         Mod info for last year
       </div>
