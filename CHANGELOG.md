@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.17.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.16.1...v0.17.0) (2022-04-17)
+
+
+### Features
+
+* adds Discord link ([#105](https://github.com/cujarrett/destiny-insights-frontend/issues/105)) ([84ecfc8](https://github.com/cujarrett/destiny-insights-frontend/commit/84ecfc858619b56418998bc6dc2ac77fcc8b701c))
+
 ## [0.16.1](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.16.0...v0.16.1) (2022-03-04)
 
 
