@@ -1,4 +1,4 @@
-const fetch = require("node-fetch")
+const fetch = require("cross-fetch")
 const cachedData = require("../data/cached-mods.json")
 
 const getModData = async () => {
