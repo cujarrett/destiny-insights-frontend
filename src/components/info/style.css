@@ -1,19 +1,18 @@
 .info {
   height: auto;
   overflow: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
 .left {
-  width: 46%;
+  width: 49%;
   float: left;
-  padding: 2%;
+  margin-top: 2%;
 }
+
 .right {
-  width: 46%;
-  float: left;
-  padding: 2%;
+  width: 49%;
+  float: right;
+  margin-top: 2%;
 }
 
 .title {
