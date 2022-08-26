@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.21.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.20.0...v0.21.0) (2022-08-26)
+
+
+### Features
+
+* adds automated cache update ([75417ab](https://github.com/cujarrett/destiny-insights-frontend/commit/75417ab0dc30c43e96230a2e806d42417e7a1939))
+
 # [0.20.0](https://github.com/cujarrett/destiny-insights-frontend/compare/v0.19.0...v0.20.0) (2022-08-26)
 
 
