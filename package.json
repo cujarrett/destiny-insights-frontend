@@ -12,6 +12,7 @@
     }
   ],
   "scripts": {
+    "update-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").updateCachedMods()'",
     "commit": "git-cz",
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
