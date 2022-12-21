@@ -12,10 +12,13 @@ const App = () => {
   const [cardData, setCardData] = useState([])
   const [searchTerms, setSearchTerms] = useState("")
 
-  useEffect(async () => {
-    const modData = await getModData()
-    const modCardData = getCardData(modData)
-    setCardData(modCardData)
+  useEffect(() => {
+    const getCards = async () => {
+      const modData = await getModData()
+      const modCardData = getCardData(modData)
+      setCardData(modCardData)
+    }
+    getCards()
   }, [])
 
   return (

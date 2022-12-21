@@ -22,9 +22,15 @@ const getModData = async () => {
     }
 
     for (const mod of data) {
-      mod.type = cachedMods[mod.name].type
-      mod.description = cachedMods[mod.name].description
-      mod.icon = cachedMods[mod.name].icon
+      if (cachedMods[mod.name] && cachedMods[mod.name].description) {
+        mod.description = cachedMods[mod.name].description
+      }
+      if (cachedMods[mod.name] && cachedMods[mod.name].icon) {
+        mod.icon = cachedMods[mod.name].icon
+      }
+      if (cachedMods[mod.name] && cachedMods[mod.name].type) {
+        mod.type = cachedMods[mod.name].type
+      }
     }
 
     return data
