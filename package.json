@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "update-cached-mods": "node -e 'require(\"./src/util/build-cached-mods.js\").updateCachedMods()'",
+    "update-cache": "npm run update-cached-mods",
     "commit": "git-cz",
     "lint": "eslint .",
     "fix-lint": "eslint . --fix",
@@ -33,30 +34,30 @@
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
     "react-scripts": "5.0.1",
-    "recharts": "~2.1.14",
-    "web-vitals": "~3.0.2"
+    "recharts": "~2.2.0",
+    "web-vitals": "~3.1.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.19.3",
+    "@babel/core": "~7.20.5",
     "@babel/eslint-parser": "~7.19.1",
     "@babel/preset-react": "~7.18.6",
-    "@commitlint/cli": "~17.1.2",
-    "@commitlint/config-conventional": "~17.1.0",
-    "@semantic-release/changelog": "~6.0.1",
+    "@commitlint/cli": "~17.3.0",
+    "@commitlint/config-conventional": "~17.3.0",
+    "@semantic-release/changelog": "~6.0.2",
     "@semantic-release/commit-analyzer": "~9.0.2",
     "@semantic-release/exec": "~6.0.3",
     "@semantic-release/git": "~10.0.1",
-    "@semantic-release/github": "~8.0.6",
+    "@semantic-release/github": "~8.0.7",
     "@semantic-release/npm": "~9.0.1",
     "@semantic-release/release-notes-generator": "~10.0.3",
     "@testing-library/jest-dom": "~5.16.5",
     "@testing-library/react": "~13.4.0",
     "@testing-library/user-event": "~14.4.3",
-    "commitizen": "~4.2.5",
+    "commitizen": "~4.2.6",
     "cz-conventional-changelog": "~3.3.0",
-    "eslint": "~8.24.0",
-    "eslint-plugin-react": "~7.31.8",
-    "husky": "~8.0.1"
+    "eslint": "~8.30.0",
+    "eslint-plugin-react": "~7.31.11",
+    "husky": "~8.0.2"
   },
   "eslintConfig": {
     "extends": [
