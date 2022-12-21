@@ -14,8 +14,6 @@ const getModData = async () => {
 
     const cachedMods = {}
     for (const value of Object.values(cachedData)) {
-      // // eslint-disable-next-line no-console
-      // console.log(value)
       cachedMods[value.name] = {
         type: value.type,
         description: value.description,
