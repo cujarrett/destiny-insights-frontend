@@ -35,8 +35,6 @@ const getModData = async () => {
 
     return data
   } catch (error) {
-    // eslint-disable-next-line no-console
-    console.log(error)
     throw new Error("api.destinyinsights.com/mod-data-for-last-year is not available or not working.")
   }
 }
