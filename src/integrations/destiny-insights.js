@@ -14,6 +14,8 @@ const getModData = async () => {
 
     const cachedMods = {}
     for (const value of Object.values(cachedData)) {
+      // // eslint-disable-next-line no-console
+      // console.log(value)
       cachedMods[value.name] = {
         type: value.type,
         description: value.description,
@@ -22,13 +24,21 @@ const getModData = async () => {
     }
 
     for (const mod of data) {
-      mod.type = cachedMods[mod.name].type
-      mod.description = cachedMods[mod.name].description
-      mod.icon = cachedMods[mod.name].icon
+      if (cachedMods[mod.name] && cachedMods[mod.name].description) {
+        mod.description = cachedMods[mod.name].description
+      }
+      if (cachedMods[mod.name] && cachedMods[mod.name].icon) {
+        mod.icon = cachedMods[mod.name].icon
+      }
+      if (cachedMods[mod.name] && cachedMods[mod.name].type) {
+        mod.type = cachedMods[mod.name].type
+      }
     }
 
     return data
   } catch (error) {
+    // eslint-disable-next-line no-console
+    console.log(error)
     throw new Error("api.destinyinsights.com/mod-data-for-last-year is not available or not working.")
   }
 }
